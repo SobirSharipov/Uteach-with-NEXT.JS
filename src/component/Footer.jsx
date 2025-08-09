@@ -48,9 +48,9 @@ const Footer = () => {
             <hr />
             <div className='flex justify-between my-[30px]'>
                 <p className='lg:block hidden'>uteach @ 2023. All rights reserved.</p>
-                <div className='flex gap-[10px] lg:gap-[30px]'>
-                    <p>Terms</p>
-                    <p>Privacy</p>
+                <div className='flex gap-[30px]'>
+                    <p className='lg:block hidden'>Terms</p>
+                    <p className='lg:block hidden'>Privacy</p>
                     <p>Contact</p>
                     <p className='flex gap-[10px]'>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
